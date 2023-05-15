@@ -1,0 +1,2519 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Технический аутсорс, разработка программного обеспечения и оборудования, уроки программирования, разработка и продвижение сайтов и интернет бизнеса, автоматизация бизнес процессов">
+    <meta name="description" content="Технический аутсорс, разработка ПО и оборудования, уроки программирования, разработка и продвижение сайтов и интернет бизнеса, автоматизация бизнес процессов">
+    <title>SBDTglobal</title>
+<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-52RT8RN');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="SBDT-Global.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="referrer" content="origin">
+    <meta property="og:title" content="S.B.D.T">
+    <meta property="og:description" content="Технический аутсорс, разработка ПО и оборудования, уроки программирования, разработка и продвижение сайтов и интернет бизнеса, автоматизация бизнес процессов">
+    <meta property="og:image" content="https://global--sbdt.repl.it/images/android-chrome-512x512.png">
+    <meta property="og:url" content="https://global--sbdt.repl.it">
+    
+    <link rel="canonical" href="https://global--sbdt.repl.it">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site2",
+		"url": "https://global--sbdt.repl.it"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:type" content="website">
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    function dynamicLoadScript(src) {
+        var script = document.createElement('script');
+        script.src = src && typeof src === 'string' ? src : 'https://www.google.com/recaptcha/api.js?render=6LdPZBAmAAAAAHi9htuGGACUv4NNmWi9eJPKrXXl';
+        script.async = true;
+        document.body.appendChild(script);
+        script.onload = function() {
+            let event = new CustomEvent("recaptchaLoaded");
+            document.dispatchEvent(event);
+        };
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButton = document.querySelector('.u-cookies-consent .u-button-confirm');
+        if (confirmButton) {
+            confirmButton.onclick = dynamicLoadScript;
+        }
+    });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            if (!gdprConfirmed()) {
+                return;
+            }
+            dynamicLoadScript();
+        });
+    </script>
+    <script>
+        document.addEventListener("recaptchaLoaded", function() {
+            if (!gdprConfirmed()) {
+                return;
+            }
+            (function (grecaptcha, sitekey, actions) {
+                var recaptcha = {
+                    execute: function (action, submitFormCb) {
+                        try {
+                            grecaptcha.execute(
+                                sitekey,
+                                {action: action}
+                            ).then(function (token) {
+                                var forms = document.getElementsByTagName('form');
+
+                                for (var i = 0; i < forms.length; i++) {
+                                    var fields = forms[i].getElementsByTagName('input');
+
+                                    for (var j = 0; j < fields.length; j++) {
+                                        var field = fields[j];
+
+                                        if ('recaptchaResponse' === field.getAttribute('name')) {
+                                            field.setAttribute('value', token);
+                                            break;
+                                        }
+                                    }
+                                }
+                                submitFormCb();
+                            });
+                        } catch (e) {
+                            var formError = document.querySelector('.u-form-send-error');
+
+                            if (formError) {
+                                formError.innerText = 'Неверный владелец сайта: ' + e.message.replace(/:[\s\S]*/, '');
+                                formError.style.display = 'block';
+                            }
+                        }
+                    },
+
+                    executeContact: function (submitFormCb) {
+                        recaptcha.execute(actions['contact'], submitFormCb);
+                    }
+                };
+
+                window.recaptchaObject = recaptcha;
+            })(
+                grecaptcha,
+                
+                '6LdPZBAmAAAAAHi9htuGGACUv4NNmWi9eJPKrXXl',
+                {'contact': 'contact'}
+            );
+        });
+    </script>
+<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="SBDT-Global.html" data-home-page-title="SBDT Global" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="ru"><!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52RT8RN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><header class="u-black u-clearfix u-header" id="sec-a926" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-border-2 u-border-palette-1-dark-1 u-expanded-width-xs u-form u-radius-21 u-form-1">
+          <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 6px;" source="email">
+            <div class="u-form-group u-form-name u-label-top">
+              <label for="name-558c" class="u-label"> Токен клиента</label>
+              <input type="text" placeholder="Введите токен клиента тут" id="name-558c" name="clientToken" class="u-input u-input-rectangle" required="">
+            </div>
+            <div class="u-form-group u-form-submit u-label-top">
+              <a href="#" class="u-border-2 u-border-palette-1-light-1 u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-light-1 u-none u-radius-50 u-btn-1">Вход в личный кабинет</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
+            </div>
+            <div class="u-form-send-message u-form-send-success">Ошибка, не верный токен</div>
+            <div class="u-form-send-error u-form-send-message">Ошибка! Не введен токен</div>
+            <input type="hidden" value="" name="recaptchaResponse">
+            <input type="hidden" name="formServices" value="2db32b84-50aa-8c6e-763c-3447fe12a248">
+            <input type="hidden" name="siteKey" value="6LdPZBAmAAAAAHi9htuGGACUv4NNmWi9eJPKrXXl">
+          </form>
+        </div>
+        <a href="#sec-44f6" class="u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-base u-none u-radius-50 u-btn-2">Продвижение и реклама</a>
+        <a href="https://global--sbdt.repl.co/escape/ru/" class="u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-3" target="_blank">Разработка кветс комнат</a>
+        <div class="u-border-2 u-border-palette-1-dark-1 u-container-align-center u-container-style u-expanded-width-xs u-group u-radius-21 u-shape-round u-group-1">
+          <div class="u-container-layout u-valign-bottom-xs u-container-layout-1">
+            <img class="u-image u-image-default u-preserve-proportions u-image-1" src="./images/IMG22.png" alt="" data-image-width="776" data-image-height="767">
+            <a href="tel:+972 504834744" class="u-active-none u-align-center u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-white u-top-left-radius-0 u-top-right-radius-0 u-btn-4"><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path></svg></span>+972 504834744
+            </a>
+          </div>
+        </div>
+        <img class="u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" src="./images/I25.png" alt="" data-image-width="638" data-image-height="271">
+      </div></header>
+    <section class="u-clearfix u-shading u-uploaded-video u-video u-section-1" id="sec-e9fd">
+      <div class="u-background-video u-expanded" style="filter: brightness(0.2);">
+        <div class="embed-responsive">
+          <video class="embed-responsive-item" data-autoplay="1" loop="" muted="1" autoplay="autoplay" playsinline="">
+            <source src="./files/-27.mp4" type="video/mp4">
+            <p>Your browser does not support HTML5 video.</p>
+          </video>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="u-layout-horizontal u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+          <div class="u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-1">
+              <div class="u-clearfix u-container-align-center u-custom-item u-expanded-width u-group-elements u-group-elements-1"><span class="u-align-center u-file-icon u-icon u-icon-1" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/9496179.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="2000">Веб разработка</h3>
+                <p class="u-align-center u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка&nbsp; и тех поддержка сайтов и веб приложений любой сложности, тематики, и любых размеров.<br>
+                </p>
+              </div>
+              <a href="#sec-8958" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-2">
+              <div class="u-clearfix u-container-align-center u-custom-item u-expanded-width u-group-elements u-group-elements-2"><span class="u-align-center u-file-icon u-icon u-icon-2" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/9887951.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-3" data-animation-name="customAnimationIn" data-animation-duration="2000">Авто​матизация</h3>
+                <p class="u-align-center u-text u-text-4" data-animation-name="customAnimationIn" data-animation-duration="2000">Автоматизация бизнеса - это возможность автономного управления твоим Бизнесом целеком, или еще частями.<br>
+                </p>
+              </div>
+              <a href="#sec-4ee2" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-2" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-3">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-3"><span class="u-align-center u-file-icon u-icon u-icon-3" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/5852297.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-5" data-animation-name="customAnimationIn" data-animation-duration="2000">Умные дома</h3>
+                <p class="u-align-center u-text u-text-6" data-animation-name="customAnimationIn" data-animation-duration="2000">Дистанционное управление оборудованием дома или на работе&nbsp;"с дивана".&nbsp;<br>
+                  <br>
+                </p>
+              </div>
+              <a href="#sec-a0ee" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-3" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-4">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-4"><span class="u-align-center u-file-icon u-icon u-icon-4" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/7328731.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-7" data-animation-name="customAnimationIn" data-animation-duration="2000">Технический аутсорс</h3>
+                <p class="u-align-center u-text u-text-8" data-animation-name="customAnimationIn" data-animation-duration="2000">Основал бизнес, но только и приходится все постоянно чинить и ремонтировать?<br>Дай нам это сделать за тебя, и освободи себя от лишних хлопот по этому поводу!<br>
+                  <br>
+                  <br>
+                  <br>
+                </p>
+              </div>
+              <a href="#sec-a24b" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-4" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-5">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-5"><span class="u-align-center u-file-icon u-icon u-icon-5" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/8728046.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-9" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка оборудования и ПО</h3>
+                <p class="u-align-center u-text u-text-10" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка оборудования и ПО любой сложности и для любых задач.<br>Чего то нет на рынке? Или есть, но тебе кажется, что разработка с нуля стоит дешевле? Нет проблем, у нас и такое делается!<br>
+                  <br>
+                </p>
+              </div>
+              <a href="#sec-d427" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-5" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-6">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-6"><span class="u-align-center u-file-icon u-icon u-icon-6" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/10736853.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-11" data-animation-name="customAnimationIn" data-animation-duration="2000">Уроки программирования</h3>
+                <p class="u-align-center u-text u-text-12" data-animation-name="customAnimationIn" data-animation-duration="2000">Частные уроки программирования на языке Python с уклоном автоматизации и оборудования.<br>Подойдет людям любого уровня знаний в компьютерной сфере<br>
+                  <br>
+                </p>
+              </div>
+              <a href="#sec-6607" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-6" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-7">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-7"><span class="u-align-center u-file-icon u-icon u-icon-7" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/6030349.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-13" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработки для яхтинга</h3>
+                <p class="u-align-center u-text u-text-14" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка оборудования&nbsp; и ПО любой сложности для яхт, катеров, лодок, и других плавучих средств.<br>Так же имеется возможность переоборудования в Зеленые Яхты.
+                </p>
+              </div>
+              <a href="#sec-b0e4" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-7" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-8">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-8"><span class="u-align-center u-file-icon u-icon u-icon-8" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/1515065.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-15" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка ПО для Умного транспорта</h3>
+                <p class="u-align-center u-text u-text-16" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка ПО для умного транспорта, обозначение автоматического взаимодействия модулей, разработка ИИ для умных электромобилей</p>
+              </div>
+              <a href="#sec-e005" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-8" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-9">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-9"><span class="u-align-center u-file-icon u-icon u-icon-9" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/1693894.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-17" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка ИИ для работы и быта</h3>
+                <p class="u-align-center u-text u-text-18" data-animation-name="customAnimationIn" data-animation-duration="2000">Разработка ИИ для анализа по камерам видеонаблюдения, управления конвейерами и робо-руками, управления умным домом, взаимодействия с клиентами и т.д</p>
+              </div>
+              <a href="#sec-3ffc" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-9" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-10">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-10"><span class="u-align-center u-file-icon u-icon u-icon-10" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/10250932.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-19" data-animation-name="customAnimationIn" data-animation-duration="2000">Тех поддержка отельного бизнеса</h3>
+                <p class="u-align-center u-text u-text-20" data-animation-name="customAnimationIn" data-animation-duration="2000">Специалисты по техническому Аутсорсу и разработчики оборудования помогут вам создать автоматизированные системы управления, парралельно с тех поддержкой вашего бизнеса.</p>
+              </div>
+              <a href="#sec-ff3f" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-10" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-11">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-11"><span class="u-align-center u-file-icon u-icon u-icon-11" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/10468462.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-21" data-animation-name="customAnimationIn" data-animation-duration="2000">Программа оценки рисков</h3>
+                <p class="u-align-center u-text u-text-22" data-animation-name="customAnimationIn" data-animation-duration="2000">Инстумены включающие ИИ для прогноза доходности и расходов в зависимости от тех или иных изменений в бизнесе</p>
+              </div>
+              <a href="#sec-dba3" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-11" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-12">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-12"><span class="u-align-center u-file-icon u-icon u-icon-12" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/911688.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-23" data-animation-name="customAnimationIn" data-animation-duration="2000">Реклама и продвижение бизнеса </h3>
+                <p class="u-align-center u-text u-text-24" data-animation-name="customAnimationIn" data-animation-duration="2000">SEO оптимизация<br>Реклама в поисковиках<br>Реклама в соц сетях<br>Реклама Телеграм<br>
+                </p>
+              </div>
+              <a href="#sec-44f6" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-12" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+          <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-container-layout-13">
+              <div class="u-clearfix u-custom-item u-expanded-width u-group-elements u-group-elements-13"><span class="u-align-center u-file-icon u-icon u-icon-13" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction=""><img src="./images/4059447.png" alt=""></span>
+                <h3 class="u-align-center u-text u-text-default u-text-25" data-animation-name="customAnimationIn" data-animation-duration="2000">Сервисы рассылок SMS / WhatsApp</h3>
+                <p class="u-align-center u-text u-text-26" data-animation-name="customAnimationIn" data-animation-duration="2000">Системы рассылок SMS и&nbsp; WhatsApp адаптивные под системы CRM</p>
+              </div>
+              <a href="#sec-5ced" class="btmm u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-1 u-btn u-button-style u-dialog-link u-hover-none u-none u-text-body-alt-color u-btn-13" data-animation-name="customAnimationIn" data-animation-duration="2000" data-animation-direction="">поднобнее -&gt;</a>
+            </div>
+          </div>
+        </div>
+        <a class="u-absolute-vcenter-xl u-gallery-nav u-gallery-nav-prev u-hover-black u-icon-rectangle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-1" href="#" role="button">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+          </span>
+          <span class="sr-only">
+            <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+          </span>
+        </a>
+        <a class="u-gallery-nav u-gallery-nav-next u-hover-black u-icon-rectangle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-2" href="#" role="button">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+          </span>
+          <span class="sr-only">
+            <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+          </span>
+        </a>
+      </div>
+      <div class="u-container-align-center-sm u-container-style u-expanded-width u-group u-opacity u-opacity-50 u-palette-1-dark-3 u-shape-rectangle u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1000">
+        <div class="u-container-layout u-container-layout-14">
+          <div class="u-clearfix u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-1">
+            <div class="u-gutter-0 u-layout">
+              <div class="u-layout-row">
+                <div class="u-container-align-center-xl u-container-style u-hover-feature u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-md u-size-15-xl u-size-30-sm u-size-30-xs u-layout-cell-1">
+                  <div class="u-container-layout u-container-layout-15">
+                    <img class="u-image u-image-circle u-image-1" src="./images/photo1683672140.jpeg" alt="" data-image-width="1280" data-image-height="1178">
+                    <h4 class="u-align-center u-text u-text-default u-text-27">Лазарев Илья<br>
+                    </h4>
+                    <p class="u-align-center u-text u-text-default u-text-28">Founder<br>TeamLeader&nbsp;<br>Python Developer<br>IoT Developer<br>ClientsManagement
+                    </p>
+                  </div>
+                </div>
+                <div class="u-container-style u-hover-feature u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-md u-size-15-xl u-size-30-sm u-size-30-xs u-layout-cell-2">
+                  <div class="u-container-layout u-container-layout-16">
+                    <img class="u-align-center u-image u-image-circle u-image-2" src="./images/photo1683672095.jpeg" alt="" data-image-width="1080" data-image-height="1214">
+                    <h4 class="u-align-center u-text u-text-default u-text-29">Хая Сегаль<br>
+                    </h4>
+                    <p class="u-align-center u-text u-text-default u-text-30">CoFounder<br>Web Developer<br>ClientsManagement
+                    </p>
+                  </div>
+                </div>
+                <div class="u-container-style u-hover-feature u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-md u-size-15-xl u-size-30-sm u-size-30-xs u-layout-cell-3">
+                  <div class="u-container-layout u-container-layout-17">
+                    <img class="u-align-center u-image u-image-circle u-image-3" src="./images/photo1683672120.jpeg" alt="" data-image-width="1080" data-image-height="1099">
+                    <h4 class="u-align-center u-text u-text-default u-text-31">Ярослав Долгин<br>
+                    </h4>
+                    <p class="u-align-center u-text u-text-default u-text-32">QA management<br>Web Developer<br>TechnicalEngineer
+                    </p>
+                  </div>
+                </div>
+                <div class="u-container-style u-hover-feature u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-md u-size-15-xl u-size-30-sm u-size-30-xs u-layout-cell-4">
+                  <div class="u-container-layout u-container-layout-18">
+                    <img class="u-align-center u-image u-image-circle u-image-4" src="./images/photo1683672155.jpeg" alt="" data-image-width="911" data-image-height="985">
+                    <h4 class="u-align-center u-text u-text-default u-text-33">Эдуард Куш<br>
+                    </h4>
+                    <p class="u-align-center u-text u-text-default u-text-34">ClientsManagement<br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-a321"><p class="u-small-text u-text u-text-variant u-text-1">SBDT • Smart Bussiness Development Team<br>Developed by Illya Lazarev<br>Sinse 2020
+      </p><a href="#sec-9300" class="pos_button_fixed u-border-2 u-border-hover-white u-btn u-button-style u-dialog-link u-hover-black u-none u-text-hover-white u-text-white u-btn-1">Связаться</a><div class="pos_button_fixed1 u-align-center u-clearfix u-group-elements u-group-elements-1">
+        <a href="https://global--sbdt.repl.co/he/" class="u-border-2 u-border-hover-white u-btn u-button-style u-hover-black u-none u-text-hover-white u-text-white u-btn-2">עברית</a>
+        <a href="https://global--sbdt.repl.co/en/" class="u-border-2 u-border-hover-white u-btn u-button-style u-hover-black u-none u-text-hover-white u-text-white u-btn-3">English</a>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/css-templates" target="_blank">
+        <span>CSS Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/website-builder" target="_blank">
+        <span>Website Builder</span>
+      </a>. 
+    </section>
+  <section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-80 u-dialog-section-4" id="sec-9300">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.45);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-27725.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-bottom-lg u-valign-middle-md u-container-layout-1">
+          <div class="u-container-style u-expanded-width u-group u-group-1">
+            <div class="u-container-layout u-container-layout-2">
+              <a href="https://wa.me/972504834744" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-white u-none u-radius-9 u-text-hover-black u-btn-1" target="_blank"> &nbsp;WhatsApp</a>
+              <a href="https://t.me/SBDTilBot" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-white u-none u-radius-9 u-text-hover-black u-btn-2" target="_blank">Telegram</a>
+              <h2 class="u-align-center u-text u-text-default u-text-1"> Just let us know what you need<span style="font-size: 2.25rem;"></span>
+              </h2>
+            </div>
+          </div>
+          <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-1">
+            <div class="u-gutter-0 u-layout">
+              <div class="u-layout-row">
+                <div class="u-container-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+                  <div class="u-container-layout u-container-layout-3">
+                    <a href="https://linkedin.com/in/sbdt" class="u-align-center u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-white u-none u-radius-9 u-text-hover-black u-btn-3" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+                <div class="u-container-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-2">
+                  <div class="u-container-layout u-container-layout-4">
+                    <a href="https://g.co/kgs/gLprpE" class="u-align-center u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-white u-none u-radius-9 u-text-hover-black u-btn-4" target="_blank">Google</a>
+                  </div>
+                </div>
+                <div class="u-container-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-3">
+                  <div class="u-container-layout u-valign-middle u-container-layout-5">
+                    <a href="https://facebook.com/ill4u" class="u-align-center u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-white u-none u-radius-9 u-text-hover-black u-btn-5" target="_blank">Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+      <style class="u-btn-1 u-state-style">.u-dialog-section-4 .u-btn-1, .u-dialog-section-4 .u-btn-1:before, .u-dialog-section-4 .u-btn-1 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-dialog-section-4 .u-btn-1.u-btn-1.u-btn-1:hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-btn-1.u-btn-1.u-btn-1:hover:before {
+    background-color: var(--none) !important
+}
+.u-dialog-section-4 .u-btn-1.u-btn-1.u-btn-1.hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-container-layout:hover .u-btn-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-dialog-section-4 .u-btn-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} </style>
+      <style class="u-btn-2 u-state-style">.u-dialog-section-4 .u-btn-2, .u-dialog-section-4 .u-btn-2:before, .u-dialog-section-4 .u-btn-2 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-dialog-section-4 .u-btn-2.u-btn-2.u-btn-2:hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-btn-2.u-btn-2.u-btn-2:hover:before {
+    background-color: var(--none) !important
+}
+.u-dialog-section-4 .u-btn-2.u-btn-2.u-btn-2.hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-container-layout:hover .u-btn-2 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-dialog-section-4 .u-btn-2 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} </style>
+      <style class="u-btn-3 u-state-style">.u-dialog-section-4 .u-btn-3, .u-dialog-section-4 .u-btn-3:before, .u-dialog-section-4 .u-btn-3 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-dialog-section-4 .u-btn-3.u-btn-3.u-btn-3:hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-btn-3.u-btn-3.u-btn-3:hover:before {
+    background-color: var(--none) !important
+}
+.u-dialog-section-4 .u-btn-3.u-btn-3.u-btn-3.hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-container-layout:hover .u-btn-3 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-dialog-section-4 .u-btn-3 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} </style>
+      <style class="u-btn-4 u-state-style">.u-dialog-section-4 .u-btn-4, .u-dialog-section-4 .u-btn-4:before, .u-dialog-section-4 .u-btn-4 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-dialog-section-4 .u-btn-4.u-btn-4.u-btn-4:hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-btn-4.u-btn-4.u-btn-4:hover:before {
+    background-color: var(--none) !important
+}
+.u-dialog-section-4 .u-btn-4.u-btn-4.u-btn-4.hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-container-layout:hover .u-btn-4 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-dialog-section-4 .u-btn-4 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} </style>
+      <style class="u-btn-5 u-state-style">.u-dialog-section-4 .u-btn-5, .u-dialog-section-4 .u-btn-5:before, .u-dialog-section-4 .u-btn-5 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-dialog-section-4 .u-btn-5.u-btn-5.u-btn-5:hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-btn-5.u-btn-5.u-btn-5:hover:before {
+    background-color: var(--none) !important
+}
+.u-dialog-section-4 .u-btn-5.u-btn-5.u-btn-5.hover {
+    box-shadow: 2px 2px 8px 0px rgba(var(--grey-50-r),var(--grey-50-g),var(--grey-50-b),1) !important;
+    transform: scale(1) translateY(px) !important;
+    text-shadow: 0px 0px 0px rgba(var(--black-r),var(--black-g),var(--black-b),0) !important
+}
+.u-dialog-section-4 .u-container-layout:hover .u-btn-5 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-dialog-section-4 .u-btn-5 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} </style>
+    </section><style>.u-dialog-section-4 .u-video-1 {
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  background-position: 50% 50%;
+  width: 340px;
+  min-height: 368px;
+  height: auto;
+  margin: 108px auto 60px;
+}
+
+.u-dialog-section-4 .u-container-layout-1 {
+  padding: 8px 25px;
+}
+
+.u-dialog-section-4 .u-group-1 {
+  background-image: none;
+  margin-top: 19px;
+}
+
+.u-dialog-section-4 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-dialog-section-4 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  background-image: none;
+  margin: 2px auto 0 0;
+  padding: 13px 28px 14px 26px;
+}
+
+.u-dialog-section-4 .u-btn-2 {
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition-duration: 0.5s;
+  border-style: solid;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  background-image: none;
+  margin: -57px 0 0 auto;
+  padding: 13px 33px 15px 31px;
+}
+
+.u-dialog-section-4 .u-text-1 {
+  margin: 20px 0 0;
+}
+
+.u-dialog-section-4 .u-layout-wrap-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-4 .u-layout-cell-1 {
+  min-height: 100px;
+}
+
+.u-dialog-section-4 .u-container-layout-3 {
+  padding: 13px 0 3px;
+}
+
+.u-dialog-section-4 .u-btn-3 {
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition-duration: 0.5s;
+  border-style: solid;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  background-image: none;
+  margin: 5px auto 0;
+  padding: 13px 9px 14px 8px;
+}
+
+.u-dialog-section-4 .u-layout-cell-2 {
+  min-height: 100px;
+}
+
+.u-dialog-section-4 .u-container-layout-4 {
+  padding: 17px 0;
+}
+
+.u-dialog-section-4 .u-btn-4 {
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition-duration: 0.5s;
+  border-style: solid;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  background-image: none;
+  margin: 0;
+  padding: 14px 18px 14px 17px;
+}
+
+.u-dialog-section-4 .u-layout-cell-3 {
+  min-height: 100px;
+}
+
+.u-dialog-section-4 .u-container-layout-5 {
+  padding: 17px 0;
+}
+
+.u-dialog-section-4 .u-btn-5 {
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition-duration: 0.5s;
+  border-style: solid;
+  background-image: none;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 0 auto;
+  padding: 13px 5px 14px;
+}
+
+.u-dialog-section-4 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-4 .u-video-1 {
+    min-height: 386px;
+    margin-top: 138px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-1 {
+    padding-bottom: 28px;
+  }
+
+  .u-dialog-section-4 .u-layout-cell-1 {
+    min-height: 82px;
+  }
+
+  .u-dialog-section-4 .u-btn-3 {
+    margin-top: -1px;
+    margin-left: 0;
+    padding-bottom: 14px;
+  }
+
+  .u-dialog-section-4 .u-layout-cell-2 {
+    min-height: 82px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-4 {
+    padding-bottom: 2px;
+  }
+
+  .u-dialog-section-4 .u-btn-4 {
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-dialog-section-4 .u-layout-cell-3 {
+    min-height: 82px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-5 {
+    padding-bottom: 3px;
+  }
+
+  .u-dialog-section-4 .u-btn-5 {
+    margin-top: -5px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-4 .u-video-1 {
+    min-height: 364px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-1 {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .u-dialog-section-4 .u-btn-1 {
+    margin-top: 0;
+    padding-right: 24px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+  }
+
+  .u-dialog-section-4 .u-btn-2 {
+    margin-top: -54px;
+    padding: 14px 28px 14px 27px;
+  }
+
+  .u-dialog-section-4 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-dialog-section-4 .u-btn-3 {
+    margin-top: 5px;
+  }
+
+  .u-dialog-section-4 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-dialog-section-4 .u-btn-4 {
+    margin-top: 0;
+    margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  .u-dialog-section-4 .u-layout-cell-3 {
+    min-height: 100px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-5 {
+    padding-bottom: 17px;
+  }
+
+  .u-dialog-section-4 .u-btn-5 {
+    margin-top: 0;
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-4 .u-video-1 {
+    min-height: 297px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-1 {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 3px;
+  }
+
+  .u-dialog-section-4 .u-btn-2 {
+    margin-top: -56px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-4 {
+    padding-bottom: 17px;
+  }
+
+  .u-dialog-section-4 .u-btn-4 {
+    margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-5 {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .u-dialog-section-4 .u-btn-5 {
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-right: 6px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-4 .u-video-1 {
+    min-height: 252px;
+    margin-top: 108px;
+  }
+
+  .u-dialog-section-4 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0;
+  }
+
+  .u-dialog-section-4 .u-btn-3 {
+    margin-left: auto;
+    padding-bottom: 14px;
+  }
+
+  .u-dialog-section-4 .u-btn-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-4 .u-container-layout-5 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-dialog-section-4 .u-btn-5 {
+    margin-right: auto;
+    margin-left: 0;
+    padding-top: 14px;
+    padding-bottom: 15px;
+  }
+}
+
+.u-dialog-section-4 .u-btn-1,
+.u-dialog-section-4 .u-btn-1:before,
+.u-dialog-section-4 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-dialog-section-4 .u-btn-1.u-btn-1.u-btn-1:hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-btn-1.u-btn-1.u-btn-1:hover:before {
+  background-color: transparent !important;
+}
+
+.u-dialog-section-4 .u-btn-1.u-btn-1.u-btn-1.hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-dialog-section-4 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-dialog-section-4 .u-btn-2,
+.u-dialog-section-4 .u-btn-2:before,
+.u-dialog-section-4 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-dialog-section-4 .u-btn-2.u-btn-2.u-btn-2:hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-btn-2.u-btn-2.u-btn-2:hover:before {
+  background-color: transparent !important;
+}
+
+.u-dialog-section-4 .u-btn-2.u-btn-2.u-btn-2.hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-container-layout:hover .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-dialog-section-4 .u-btn-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-dialog-section-4 .u-btn-3,
+.u-dialog-section-4 .u-btn-3:before,
+.u-dialog-section-4 .u-btn-3 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-dialog-section-4 .u-btn-3.u-btn-3.u-btn-3:hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-btn-3.u-btn-3.u-btn-3:hover:before {
+  background-color: transparent !important;
+}
+
+.u-dialog-section-4 .u-btn-3.u-btn-3.u-btn-3.hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-container-layout:hover .u-btn-3 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-dialog-section-4 .u-btn-3 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-dialog-section-4 .u-btn-4,
+.u-dialog-section-4 .u-btn-4:before,
+.u-dialog-section-4 .u-btn-4 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-dialog-section-4 .u-btn-4.u-btn-4.u-btn-4:hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-btn-4.u-btn-4.u-btn-4:hover:before {
+  background-color: transparent !important;
+}
+
+.u-dialog-section-4 .u-btn-4.u-btn-4.u-btn-4.hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-container-layout:hover .u-btn-4 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-dialog-section-4 .u-btn-4 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-dialog-section-4 .u-btn-5,
+.u-dialog-section-4 .u-btn-5:before,
+.u-dialog-section-4 .u-btn-5 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-dialog-section-4 .u-btn-5.u-btn-5.u-btn-5:hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-btn-5.u-btn-5.u-btn-5:hover:before {
+  background-color: transparent !important;
+}
+
+.u-dialog-section-4 .u-btn-5.u-btn-5.u-btn-5.hover {
+  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: scale(1) translateY(px) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-dialog-section-4 .u-container-layout:hover .u-btn-5 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-dialog-section-4 .u-btn-5 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-80 u-dialog-section-5" id="sec-4ee2">
+      <div class="u-align-center u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.4);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-6421.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-1">
+          <h6 class="u-text u-text-default u-text-1">автоматизация бизнеса</h6>
+          <h2 class="u-custom-font u-text u-text-default u-text-font u-text-2">10% скидка<br>Обратившимся&nbsp;<br>сейчас!
+          </h2>
+          <div class="u-black u-container-style u-group u-opacity u-opacity-70 u-group-1">
+            <div class="u-container-layout u-container-layout-2">
+              <p class="u-custom-font u-text u-text-3">Что такое автоматизация? Это когда что либо начинает работать само, без вмешательства человека.&nbsp;<br>
+                <br>Запишись на бесплатную консультацию сейчас, узнай о безграничных возможностях своего бизнеса и получи скидку в случае заказа
+              </p>
+            </div>
+          </div>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 413.348 413.348" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5801"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 413.348 413.348" id="svg-5801"><path d="m413.348 24.354-24.354-24.354-182.32 182.32-182.32-182.32-24.354 24.354 182.32 182.32-182.32 182.32 24.354 24.354 182.32-182.32 182.32 182.32 24.354-24.354-182.32-182.32z"></path></svg></button>
+      </div>
+    </section><style>.u-dialog-section-5 .u-video-1 {
+  width: 340px;
+  height: auto;
+  min-height: 508px;
+  margin: 28px auto 60px;
+}
+
+.u-dialog-section-5 .u-container-layout-1 {
+  padding: 16px 0 29px;
+}
+
+.u-dialog-section-5 .u-text-1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0 auto;
+}
+
+.u-dialog-section-5 .u-text-2 {
+  font-size: 2.125rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 6px auto 0;
+}
+
+.u-dialog-section-5 .u-group-1 {
+  width: 320px;
+  min-height: 183px;
+  margin: 18px auto 0;
+}
+
+.u-dialog-section-5 .u-container-layout-2 {
+  padding: 7px 10px;
+}
+
+.u-dialog-section-5 .u-text-3 {
+  font-size: 1rem;
+  font-family: "Azeret Mono";
+  margin: 8px 0 0;
+}
+
+.u-dialog-section-5 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 18px auto 0;
+  padding: 9px 57px 11px;
+}
+
+.u-dialog-section-5 .u-icon-1 {
+  width: 15px;
+  height: 15px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-5 .u-container-layout-1 {
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+
+  .u-dialog-section-5 .u-text-1 {
+    margin-top: 9px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-5 .u-container-layout-1 {
+    padding-top: 40px;
+    padding-bottom: 29px;
+  }
+
+  .u-dialog-section-5 .u-text-1 {
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-5 .u-container-layout-1 {
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .u-dialog-section-5 .u-text-1 {
+    margin-top: 0;
+  }
+
+  .u-dialog-section-5 .u-text-2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-5 .u-container-layout-1 {
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-dialog-section-5 .u-text-2 {
+    font-size: 2.125rem;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-6" id="sec-8958">
+      <div class="u-align-left u-container-style u-dialog u-shading u-shape-rectangle u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.3);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-12716.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-1">
+          <h2 class="u-text u-text-default u-text-1">Веб разработка</h2>
+          <p class="u-custom-font u-text u-text-2">Наша команда специалистов разработает для вас лучшие варианты сайтов и веб приложений.<br>• Лендинги<br>• Веб презентации<br>• Интернет магазины<br>• Платформы услуг<br>• Биржи и обменники<br>• И многое другое!<br>
+            <br>Свяжитесь с нами прямо сейчас, и получите скидку 10% по промокоду "Технологичный-Бум"
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-1">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e2d"></use></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-4e2d" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg>
+      </button>
+      </div>
+    </section><style>.u-dialog-section-6 .u-video-1 {
+  width: 340px;
+  min-height: 365px;
+  height: auto;
+  margin: 44px auto 60px;
+}
+
+.u-dialog-section-6 .u-container-layout-1 {
+  padding: 20px 20px 11px;
+}
+
+.u-dialog-section-6 .u-text-1 {
+  width: auto;
+  margin: 0 auto;
+}
+
+.u-dialog-section-6 .u-text-2 {
+  font-family: "Anonymous Pro";
+  font-size: 1rem;
+  line-height: 1.1;
+  width: auto;
+  margin: 7px 0 0;
+}
+
+.u-dialog-section-6 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 14px 0 0;
+  padding: 10px 62px;
+}
+
+.u-dialog-section-6 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 14px;
+  position: absolute;
+  right: 14px;
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-6 .u-video-1 {
+    min-height: 425px;
+  }
+
+  .u-dialog-section-6 .u-container-layout-1 {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-6 .u-video-1 {
+    min-height: 333px;
+  }
+
+  .u-dialog-section-6 .u-container-layout-1 {
+    padding: 11px 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-6 .u-video-1 {
+    min-height: 365px;
+  }
+
+  .u-dialog-section-6 .u-container-layout-1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-7" id="sec-a0ee">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.4);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-4001.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-text u-text-default u-text-1">Умные дома</h2>
+          <p class="u-custom-font u-text u-text-2">Наша команда уже не первый год имеет дело с разработкой Умных Домов.<br>Чем мы отличаемся от остальных в настолько развитой сфере?<br>Мы разработчики, а не установщики.&nbsp;<br>Мы не заказываем детали у поставщиков, чтобы их просто установить. Мы разрабатываем каждую деталь Умного Дома индивидуально под клиента!<br>
+            <br>При маленьких объемах - это просто делает систему Умного дома удобнее комфортнее для вас.&nbsp;<br>При объемах побольше - еще и страшная экономия.<br>А гарантия? Разумеется пожизненно.<br>
+            <br>
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-7 .u-video-1 {
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  background-position: 50% 50%;
+  width: 720px;
+  min-height: 431px;
+  height: NaNpx;
+  margin: 47px auto 60px;
+}
+
+.u-dialog-section-7 .u-container-layout-1 {
+  padding: 30px 40px;
+}
+
+.u-dialog-section-7 .u-text-1 {
+  width: auto;
+  margin: 9px auto 0;
+}
+
+.u-dialog-section-7 .u-text-2 {
+  background-image: none;
+  font-family: "Azeret Mono";
+  line-height: 1.2;
+  width: auto;
+  margin: 13px 0 0;
+}
+
+.u-dialog-section-7 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-7 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-7 .u-video-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-7 .u-video-1 {
+    height: NaNpx;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-7 .u-video-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-7 .u-video-1 {
+    width: 340px;
+    min-height: 541px;
+  }
+
+  .u-dialog-section-7 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-dialog-section-7 .u-text-2 {
+    margin-top: 9px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .u-dialog-section-7 .u-btn-1 {
+    margin-top: 5px;
+    padding: 9px 16px 11px 15px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-8" id="sec-a24b">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.2);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-27439.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-top u-container-layout-1">
+          <h2 class="u-align-center-xs u-text u-text-default u-text-1"> Технический аутсорс</h2>
+          <p class="u-custom-font u-text u-text-2">Наши специалисты помогут вам следить за технической частью вашего бизнеса.<br>Зачем тратить время на то, что может быть сделано и без тебя?<br>Свяжись с нами, обеспечь себе возможность найти время заняться бизнесом, а не его поддержкой!
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-8 .u-video-1 {
+  width: 768px;
+  min-height: 352px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 38px auto 60px;
+}
+
+.u-dialog-section-8 .u-container-layout-1 {
+  padding: 50px 42px 38px;
+}
+
+.u-dialog-section-8 .u-text-1 {
+  margin: 0 auto 0 104px;
+}
+
+.u-dialog-section-8 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 7px 0 0 8px;
+}
+
+.u-dialog-section-8 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 20px auto 0 122px;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-8 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-8 .u-video-1 {
+    background-position: 50% 50%;
+    width: 768px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-8 .u-text-1 {
+    margin-left: 104px;
+  }
+
+  .u-dialog-section-8 .u-text-2 {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+
+  .u-dialog-section-8 .u-btn-1 {
+    margin-left: 122px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-8 .u-video-1 {
+    width: 720px;
+  }
+
+  .u-dialog-section-8 .u-container-layout-1 {
+    padding: 30px 40px;
+  }
+
+  .u-dialog-section-8 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-dialog-section-8 .u-btn-1 {
+    margin-left: 98px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-8 .u-video-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-8 .u-btn-1 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-8 .u-video-1 {
+    width: 340px;
+    min-height: 399px;
+  }
+
+  .u-dialog-section-8 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-8 .u-text-1 {
+    margin-left: auto;
+  }
+
+  .u-dialog-section-8 .u-btn-1 {
+    margin-right: 0;
+    padding-right: 58px;
+    padding-left: 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-9" id="sec-d427">
+      <div class="u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.3);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-47717.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-top u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-default u-text-1"> Разработка<br>оборудования и ПО
+          </h2>
+          <p class="u-align-left u-custom-font u-text u-text-2">Разработка оборудования и Программного Обеспечения любой сложности и для различных задач.<br>С интеграцией модулей интернет связи и дистранционного управления.<br>В больших колличествах - дешевле покупки готового оборудования/ПО.<br>Свяжитесь с нами сейчас, создайте что то новое!
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-9 .u-video-1 {
+  width: 722px;
+  min-height: 461px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 23px auto 60px calc(((100% - 1140px) / 2) + 193px);
+}
+
+.u-dialog-section-9 .u-container-layout-1 {
+  padding: 47px 50px;
+}
+
+.u-dialog-section-9 .u-text-1 {
+  margin: 0 auto;
+}
+
+.u-dialog-section-9 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 18px 0 0;
+}
+
+.u-dialog-section-9 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 23px auto 0;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-9 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-9 .u-video-1 {
+    width: 747px;
+    background-position: 50% 50%;
+    min-height: 481px;
+    margin-left: auto;
+  }
+
+  .u-dialog-section-9 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-9 .u-video-1 {
+    width: 720px;
+    min-height: 401px;
+  }
+
+  .u-dialog-section-9 .u-container-layout-1 {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-9 .u-video-1 {
+    width: 540px;
+    min-height: 407px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-9 .u-video-1 {
+    width: 340px;
+  }
+
+  .u-dialog-section-9 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-9 .u-btn-1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 57px;
+    padding-left: 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-10" id="sec-6607">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.35);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-5364.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-text u-text-default u-text-1">Уроки программирования</h2>
+          <p class="u-custom-font u-text u-text-2">Частные занятия на языке Python.<br>• Уроки для начинающих и подготовка к экзаменациям.<br>• Результат гарантирован.<br>• Онлайн и офлайн занятия.<br>• Стажировка.<br>• Требуется лишь ПК с минимальными характеристиками.<br>
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-10 .u-video-1 {
+  width: 805px;
+  min-height: 386px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 46px auto 60px;
+}
+
+.u-dialog-section-10 .u-container-layout-1 {
+  padding: 13px 50px;
+}
+
+.u-dialog-section-10 .u-text-1 {
+  margin: 14px 57px 0;
+}
+
+.u-dialog-section-10 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 14px 0 0;
+}
+
+.u-dialog-section-10 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 50px auto 0;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-10 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-10 .u-video-1 {
+    background-position: 50% 50%;
+    min-height: 363px;
+  }
+
+  .u-dialog-section-10 .u-text-1 {
+    margin-left: 57px;
+    margin-right: 57px;
+  }
+
+  .u-dialog-section-10 .u-btn-1 {
+    margin-top: 31px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-10 .u-video-1 {
+    width: 720px;
+    min-height: 361px;
+  }
+
+  .u-dialog-section-10 .u-container-layout-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .u-dialog-section-10 .u-btn-1 {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-10 .u-video-1 {
+    width: 540px;
+    min-height: 344px;
+  }
+
+  .u-dialog-section-10 .u-text-1 {
+    width: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .u-dialog-section-10 .u-btn-1 {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-10 .u-video-1 {
+    width: 340px;
+    min-height: 422px;
+  }
+
+  .u-dialog-section-10 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-10 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-10 .u-btn-1 {
+    margin-top: 41px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 58px;
+    padding-left: 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-11" id="sec-b0e4">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.2);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-5088.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-top u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-default u-text-white u-text-1">Разработки для яхтинга</h2>
+          <p class="u-custom-font u-text u-text-2">Зеленые яхты, оборудование подруливания, модификация внешнего вида судна, модификация внутреннего строения судна, модификации систем контроля и энерго-снабжения. Это все делаем мы, за миниммальные сроки, цены, но при наилучшем качестве. Секрет заключается в индивидуальной разработке под каждое судно.</p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-11 .u-video-1 {
+  width: 779px;
+  min-height: 367px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 36px auto 60px;
+}
+
+.u-dialog-section-11 .u-container-layout-1 {
+  padding: 50px 36px 46px;
+}
+
+.u-dialog-section-11 .u-text-1 {
+  margin: 0 auto;
+}
+
+.u-dialog-section-11 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 23px 0 0;
+}
+
+.u-dialog-section-11 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 10px auto 0;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-11 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-11 .u-video-1 {
+    background-position: 50% 50%;
+    width: 779px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-11 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-11 .u-video-1 {
+    width: 720px;
+    min-height: 363px;
+    height: auto;
+  }
+
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding: 30px 40px;
+  }
+
+  .u-dialog-section-11 .u-btn-1 {
+    margin-top: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-11 .u-video-1 {
+    width: 540px;
+    height: NaNpx;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-11 .u-video-1 {
+    width: 340px;
+    min-height: 478px;
+  }
+
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-11 .u-btn-1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 9px 58px 11px 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-12" id="sec-e005">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.2);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-79765.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-valign-bottom-sm u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-1">ПО для Умного Транспорта</h2>
+          <p class="u-custom-font u-text u-text-2">Всегда хотел разработать свой Электромобиль?<br>Наша команда поможет тебе с этой не простой задачей!<br>Обращайся проямо сечас, стань следующим производителем Автомобилей нового поколения!
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-12 .u-video-1 {
+  width: 791px;
+  min-height: 348px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 119px auto 60px;
+}
+
+.u-dialog-section-12 .u-container-layout-1 {
+  padding: 50px 50px 44px;
+}
+
+.u-dialog-section-12 .u-text-1 {
+  margin: 2px 14px 0;
+}
+
+.u-dialog-section-12 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 20px 0 0;
+}
+
+.u-dialog-section-12 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 14px auto 0;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-12 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-12 .u-video-1 {
+    background-position: 50% 50%;
+    width: 791px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-12 .u-text-1 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .u-dialog-section-12 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-12 .u-video-1 {
+    width: 720px;
+  }
+
+  .u-dialog-section-12 .u-container-layout-1 {
+    padding: 30px 40px;
+  }
+
+  .u-dialog-section-12 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-12 .u-video-1 {
+    width: 540px;
+    min-height: 294px;
+    height: auto;
+  }
+
+  .u-dialog-section-12 .u-text-1 {
+    margin-top: 0;
+  }
+
+  .u-dialog-section-12 .u-btn-1 {
+    margin-top: 27px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-12 .u-video-1 {
+    width: 340px;
+    min-height: 394px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-12 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-12 .u-btn-1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 9px 58px 11px 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-13" id="sec-3ffc">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.3);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-27019.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-default u-text-white u-text-1">ИИ для работы и быта</h2>
+          <p class="u-custom-font u-text u-text-2">Конечно же не всем нам знакомы случаи, когда необходимо разработать ИИ под конкретные свои нужды и задачи. Но когда это происходит - без нас тут точно никак!<br>Системы распознавания лиц, обработчики информации на основе ИИ и т.д
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style>.u-dialog-section-13 .u-video-1 {
+  width: 636px;
+  min-height: 342px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 126px auto 60px;
+}
+
+.u-dialog-section-13 .u-container-layout-1 {
+  padding: 50px 44px 43px;
+}
+
+.u-dialog-section-13 .u-text-1 {
+  margin: 9px auto 0;
+}
+
+.u-dialog-section-13 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 9px 0 0;
+}
+
+.u-dialog-section-13 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 21px auto 0;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-13 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-13 .u-video-1 {
+    background-position: 50% 50%;
+    width: 636px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-13 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-13 .u-container-layout-1 {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-13 .u-video-1 {
+    width: 540px;
+    min-height: 314px;
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-13 .u-video-1 {
+    width: 340px;
+    min-height: 386px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-13 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-13 .u-btn-1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 57px;
+    padding-left: 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-14" id="sec-ff3f">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.3);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-22098.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1">Тех поддержка отельного бизнеса</h2>
+          <p class="u-custom-font u-text u-text-2">Сколько рабочего времени и сил требует поддержание отеля?<br>Ни сколько! Наши новейшие разработки снизят колличество поломок до минимума, а даже если что либо вышло из строя - наши специалисты за минимальные сроки починят/предоставят новое оборудование.<br>Звучит просто? На деле все еще проще
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style> .u-dialog-section-14 {
+  min-height: 780px;
+}
+
+.u-dialog-section-14 .u-video-1 {
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  background-position: 50% 50%;
+  width: 340px;
+  min-height: 510px;
+  margin: 140px auto 60px;
+}
+
+.u-dialog-section-14 .u-container-layout-1 {
+  padding: 30px 25px;
+}
+
+.u-dialog-section-14 .u-text-1 {
+  margin: 0 19px;
+}
+
+.u-dialog-section-14 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 10px 0 0;
+}
+
+.u-dialog-section-14 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 19px 0 0;
+  padding: 9px 57px 11px;
+}
+
+.u-dialog-section-14 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-14 .u-video-1 {
+    height: NaNpx;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-14 .u-container-layout-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-14 .u-video-1 {
+    min-height: 393px;
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-14 .u-video-1 {
+    height: NaNpx;
+  }
+
+  .u-dialog-section-14 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-15" id="sec-dba3">
+      <div class="u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.55);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-4000.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1">Программа оценки рисков</h2>
+          <p class="u-align-left u-custom-font u-text u-text-default u-text-2">Программа оценки кисков - ключ к успеху для предпринимателей любой отрасли.<br>Эта программа которая способна анализировать ваши действия в бизнесе еще до их совершения. Боитесь ошибиться в деле, которое вам приносит прибыль? Каждый выбор кажется слишком сложным, и даже опасным? Значит вам точно нужен этот продукт
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style> .u-dialog-section-15 {
+  min-height: 780px;
+}
+
+.u-dialog-section-15 .u-video-1 {
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  background-position: 50% 50%;
+  width: 340px;
+  min-height: 479px;
+  margin: 142px auto 60px;
+}
+
+.u-dialog-section-15 .u-container-layout-1 {
+  padding: 30px 25px 24px;
+}
+
+.u-dialog-section-15 .u-text-1 {
+  margin: 0 12px;
+}
+
+.u-dialog-section-15 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 19px auto 0 0;
+}
+
+.u-dialog-section-15 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 19px 0 0;
+  padding: 10px 57px;
+}
+
+.u-dialog-section-15 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-15 .u-video-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-15 .u-video-1 {
+    min-height: 359px;
+  }
+
+  .u-dialog-section-15 .u-container-layout-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-15 .u-video-1 {
+    height: NaNpx;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-15 .u-video-1 {
+    min-height: 479px;
+    height: auto;
+  }
+
+  .u-dialog-section-15 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-16" id="sec-44f6">
+      <div class="u-align-left u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.35);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-3174.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-text u-text-default u-text-1">Продвижение и реклама</h2>
+          <p class="u-custom-font u-text u-text-2">Все мы знаем, как важна реклама. Без нее нет Клиентов, а без них - и бизнеса тоже нет. Это очень важный аспект в вашем бизнесе, который всегда стоит доверить профессионалам в этой области. В рекламе - вы не должны промахиваться.<br>Каждая потраченая на рекламу копейка должна окупаться, иначе, это не реклама, а денежный насос.
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style> .u-dialog-section-16 {
+  min-height: 780px;
+}
+
+.u-dialog-section-16 .u-video-1 {
+  width: 811px;
+  min-height: 398px;
+  height: auto;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  margin: 136px auto 60px;
+}
+
+.u-dialog-section-16 .u-container-layout-1 {
+  padding: 50px 50px 44px;
+}
+
+.u-dialog-section-16 .u-text-1 {
+  margin: 0 auto;
+}
+
+.u-dialog-section-16 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 18px 0 0 3px;
+}
+
+.u-dialog-section-16 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 18px auto 0;
+  padding: 10px 132px 10px 131px;
+}
+
+.u-dialog-section-16 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-16 .u-video-1 {
+    background-position: 50% 50%;
+    width: 811px;
+    height: NaNpx;
+  }
+
+  .u-dialog-section-16 .u-text-2 {
+    margin-right: 0;
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-16 .u-video-1 {
+    width: 720px;
+    min-height: 372px;
+    height: auto;
+  }
+
+  .u-dialog-section-16 .u-container-layout-1 {
+    padding: 30px 40px;
+  }
+
+  .u-dialog-section-16 .u-text-2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-16 .u-video-1 {
+    width: 540px;
+    height: NaNpx;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-16 .u-video-1 {
+    width: 340px;
+    min-height: 484px;
+  }
+
+  .u-dialog-section-16 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-16 .u-btn-1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 57px;
+    padding-left: 57px;
+  }
+}</style><section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-17" id="sec-5ced">
+      <div class="u-container-style u-dialog u-shading u-uploaded-video u-video u-video-1">
+        <div class="u-background-video u-expanded" style="filter: brightness(0.5);">
+          <div class="embed-responsive">
+            <video class="embed-responsive-item" data-autoplay="true" loop="" muted="1" playsinline="">
+              <source src="./files/-5074.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-align-center u-text u-text-1"> Сервисы рассылок SMS / WhatsApp</h2>
+          <p class="u-align-left u-custom-font u-text u-text-default u-text-2">Индивидуально созданные под клиента системы рассылок SMS / WhatsApp.<br>Возможность автоматического ответа, отправки, регистрации в БД, чтения из БД, активации, боты и прочее<br>
+            <br>В общем, все, что мы можем использовать для связи со знакоми и клиентами
+          </p>
+          <a href="#sec-9300" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-dialog-link u-hover-white u-none u-radius-50 u-btn-1">Обратиться сейчас</a>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5da4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-5da4" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg></button>
+      </div>
+    </section><style> .u-dialog-section-17 {
+  min-height: 780px;
+}
+
+.u-dialog-section-17 .u-video-1 {
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+  background-position: 50% 50%;
+  width: 340px;
+  min-height: 459px;
+  margin: 135px auto 60px;
+}
+
+.u-dialog-section-17 .u-container-layout-1 {
+  padding: 30px 25px;
+}
+
+.u-dialog-section-17 .u-text-1 {
+  margin: 0;
+}
+
+.u-dialog-section-17 .u-text-2 {
+  font-family: "Azeret Mono";
+  margin: 25px 0 0;
+}
+
+.u-dialog-section-17 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 12px 0 0;
+  padding: 10px 58px 10px 57px;
+}
+
+.u-dialog-section-17 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 17px;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-17 .u-video-1 {
+    height: NaNpx;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-17 .u-video-1 {
+    min-height: 448px;
+    height: auto;
+  }
+
+  .u-dialog-section-17 .u-container-layout-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-17 .u-video-1 {
+    min-height: 406px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-17 .u-video-1 {
+    height: NaNpx;
+  }
+
+  .u-dialog-section-17 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}</style>
+</body></html>
